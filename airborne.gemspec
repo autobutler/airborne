@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.add_runtime_dependency 'rspec', '~> 3.1'
   s.add_runtime_dependency 'rest-client', '< 3.0', '>= 1.7.3'
-  s.add_runtime_dependency 'rack-test', '~> 0.6', '>= 0.6.2'
+  s.add_runtime_dependency 'rack-test'
   s.add_runtime_dependency 'rack'
   s.add_runtime_dependency 'activesupport'
   s.add_development_dependency 'webmock', '~> 0'
